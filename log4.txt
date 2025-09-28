@@ -1,0 +1,208 @@
+PrgStateId:1
+ExeStack:
+varf=test.in
+OpenRFile(varf)
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+varf=test.in
+OpenRFile(varf)
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+OpenRFile(varf)
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+OpenRFile(varf)
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: [0]
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: [0]
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: [0]
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: [0]
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: [0, 0]
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:1
+ExeStack:
+
+SymTable: {varf=test.in, varc=0}
+Out: [0, 0]
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
